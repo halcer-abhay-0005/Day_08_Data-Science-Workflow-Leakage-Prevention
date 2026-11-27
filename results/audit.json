@@ -1,0 +1,27 @@
+{
+  "rows": 4120,
+  "missing_labels": 61,
+  "class_counts": {
+    "technical": 1579,
+    "billing": 1448,
+    "account": 622,
+    "shipping": 410
+  },
+  "duplicate_text_rows": 120,
+  "missing_by_col": {
+    "priority": 218,
+    "category": 61
+  },
+  "normalised_MI_with_label": {
+    "channel": 0.001,
+    "priority": 0.001,
+    "assigned_team": 1.0,
+    "customer_id": 0.276
+  },
+  "mean_resolution_hours_by_class": {
+    "account": 6.2,
+    "billing": 12.0,
+    "shipping": 17.5,
+    "technical": 24.3
+  }
+}

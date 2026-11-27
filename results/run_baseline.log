@@ -1,0 +1,40 @@
+raw=4120 clean=3940 train=2758 val=591 test=591
+train range: 2025-01-01 -> 2025-09-09
+test  range: 2025-11-04 -> 2025-12-31
+              precision    recall  f1-score   support
+
+     account       0.96      0.96      0.96        95
+     billing       0.98      0.97      0.98       212
+    shipping       0.97      1.00      0.98        58
+   technical       0.99      0.99      0.99       226
+
+    accuracy                           0.98       591
+   macro avg       0.97      0.98      0.98       591
+weighted avg       0.98      0.98      0.98       591
+
+{
+  "majority_val": {
+    "accuracy": 0.3909,
+    "macro_f1": 0.1405
+  },
+  "logreg_val": {
+    "accuracy": 0.9797,
+    "macro_f1": 0.9718
+  },
+  "majority_test": {
+    "accuracy": 0.3824,
+    "macro_f1": 0.1383
+  },
+  "logreg_test": {
+    "accuracy": 0.978,
+    "macro_f1": 0.976
+  },
+  "LEAKY_assigned_team_only_test": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "random_split_with_duplicates_test": {
+    "accuracy": 0.9869,
+    "macro_f1": 0.9872
+  }
+}

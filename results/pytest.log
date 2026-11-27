@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.15.2, pytest-9.2.0, pluggy-1.7.0 -- /Users/apple/Desktop/30_day_learning/Day 8/.venv/bin/python3.15
+cachedir: .pytest_cache
+rootdir: /Users/apple/Desktop/30_day_learning/Day 8
+collecting ... collected 6 items
+
+tests/test_pipeline.py::test_make_data_is_reproducible PASSED            [ 16%]
+tests/test_pipeline.py::test_clean_removes_missing_labels_and_duplicates PASSED [ 33%]
+tests/test_pipeline.py::test_time_split_is_chronological_and_disjoint PASSED [ 50%]
+tests/test_pipeline.py::test_no_leaky_feature_used PASSED                [ 66%]
+tests/test_pipeline.py::test_preprocessing_fit_on_train_only PASSED      [ 83%]
+tests/test_pipeline.py::test_baseline_beats_majority PASSED              [100%]
+
+============================== 6 passed in 2.45s ===============================
